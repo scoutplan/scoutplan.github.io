@@ -1,70 +1,66 @@
+---
+# front matter tells Jekyll to process Liquid
+---
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Scoutplan: Calendar & Communication For Scout & Youth Organizations</title>
+    <title>Scoutplan: Event &amp; Communication Management for Scout Units</title>
     <link rel="stylesheet" href="./assets/main.css" />
   </head>
-  <body style="padding: 0 2rem;">
+  <body >
     <style>
       #cta_link {
         background: #E66425;
         color: #fff;
-        padding: 1rem 3rem;
+        padding: 1rem 4rem;
         font-weight: 800;
         border-radius: 0.5rem;
+        font-size: 1.5rem;
       }
       #cta_link:hover {
         background: #A0411C;
         text-decoration: none;
       }
     </style>
-    <header style="padding: 2rem 3rem; margin-bottom: 3rem; overflow: auto; clear: both; left: 0; right: 0; background: #fff;">
-      <span style="float: right;">
-        <a href="https://go.scoutplan.org">Sign in</a>
-      </span>
+
+    <header style="padding: 2rem 3rem; margin-bottom: 2rem; overflow: auto; clear: both; left: 0; right: 0; background: #fff;">
       <img src="./assets/scoutplan_logo_sm.png" style="display:block; max-width:200px; margin: 0 auto;" />
     </header>
     
-    <main style="margin: 0 auto; max-width: 900px;">
-      <section style="text-align: center;">
+    <main>
+      <section style="text-align: center; margin: 0 auto; max-width: 900px; padding: 0 2rem;">
         <h1 style="font-weight: 800; font-size: 5rem; line-height: 100%;">
-          Everything you need to get your Scout Troop organized.
+          Let's get your Scout troop organized.
         </h1>
 
         <p style="margin-top:3rem;font-size:2rem;">
-          Before: Scoutbook + Google Calendar + SignUpGenius + email + SMS + paper.
-          <br/>
-          After: Everything's organized in one place: Scoutplan!
+          Scoutplan automates the rote aspects of running your unit, so you can spend less effort on
+          logistics and more time <span style="white-space:nowrap;">delivering a great program.</span>
         </p> 
 
-        <p style="margin-top:3rem;">
-          <a href="https://go.scoutplan.org/sign-up" id="cta_link">Get started now</a>
-        </p>
+        {% if false %}
+          <p style="margin:3rem 0 2rem 0;">
+            <a href="https://go.scoutplan.org/users/sign_up" id="cta_link">Get started now</a>
+          </p>
+          <p>Already set up? <a href="https://go.scoutplan.org">Sign in</a></p>
+        {% else %}
+          <h2 style="color: #E66425; font-weight:bold;">Coming soon.</h2>
+        {% endif %}
       </section>
       
-      <section style="overflow: auto; clear: both; padding-top: 6rem;">
-        <article style="width: 50%; float: left; padding-left: 2rem;">
-          <h2>Calendars Done Right</h2>
-          <p>Get your event plans out in front of your members early and often with robust RSVPs and reminders.</p>
+      {% if false %}
+      <section style="background: url('./assets/bg_topo.png'); margin: 3rem 0; border-top: 1px solid #eaeaea; background-size: contain;">
+        <article style="overflow: auto; clear: both; padding: 4rem 0; margin: 0 auto; max-width: 24rem;">
+          <h2>Event Management</h2>
+          <img src="" style="width: 100%" />
+          <p>Get your plans in front of your members early and often with robust RSVPs and reminders.</p>
         </article>
-        <img src="" style="float: left; width: 50%; display: block;" />      
-      </section>
-      
-      <section style="overflow: auto; clear: both; padding-top: 6rem;">
-        <img src="" style="float: left; width: 50%; display: block;" />
-        <article style="width: 50%; float: right; padding-right: 2rem;">
+        <article style="overflow: auto; clear: both; padding-top: 6rem; margin: 0 auto; max-width: 24rem;">
           <h2>Powerful Communication</h2>
           <p>Email and text channels increase the chances of your message being heard.</p>
-        </article>      
+        </article>  
       </section>
-
-      <section style="overflow: auto; clear: both; padding-top: 6rem;">
-        <article style="width: 50%; float: left; padding-left: 2rem;">
-          <h2>Zero dollars</h2>
-          <p>Scoutplan is free to use for Scout groups.</p>
-        </article>
-        <img src="" style="float: left; width: 50%; display: block;" />      
-      </section>      
+      {% endif %}
     </main>
   </body>
 </html>
