@@ -1,11 +1,13 @@
 ---
 # front matter tells Jekyll to process Liquid
+
+layout: home
 ---
 <!DOCTYPE html>
 <html>
   <head>
     <title>Scoutplan: Event &amp; Communication Management for Scout Units</title>
-    <link rel="stylesheet" href="./assets/main.css" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
   </head>
   <body >
     <style>
@@ -24,7 +26,7 @@
     </style>
 
     <header style="padding: 2rem 3rem; margin-bottom: 2rem; margin-top: 2rem; overflow: auto; clear: both; left: 0; right: 0; background: #fff;">
-      <img src="./assets/scoutplan_logo_sm.png" style="display:block; max-width:200px; margin: 0 auto;" />
+      <img src="/assets/scoutplan_logo_sm.png" style="display:block; max-width:200px; margin: 0 auto;" />
     </header>
     
     <main>
@@ -38,34 +40,14 @@
           logistics and more time <span style="white-space:nowrap;">delivering a great program.</span>
         </p> 
 
-        {% if false %}
-          <p style="margin:3rem 0 2rem 0;">
-            <a href="https://go.scoutplan.org/users/sign_up" id="cta_link">Get started now</a>
-          </p>
-          <p>Already set up? <a href="https://go.scoutplan.org">Sign in</a></p>
-        {% else %}
-          <h2 style="color: #E66425; font-weight:bold;">Coming soon.</h2>
-          <p>
-            <a href="https://go.scoutplan.org">Sign In</a>
-            &nbsp;&middot;&nbsp;
-            <a href="https://scoutplan.wufoo.com/forms/zulk7gr1escuzl/" style="font-weight:bold; text-decoration:underline;">Sign up to receive updates</a>
-          </p>
-        {% endif %}
+
+        <h2 class="text-2xl mb-12" style="color: #E66425; font-weight:bold;">Coming soon.</h2>
+        <p>
+          <a href="https://go.scoutplan.org" style="font-weight:bold; text-decoration:underline;">Sign In</a>
+          &nbsp;&middot;&nbsp;
+          <a href="https://scoutplan.wufoo.com/forms/zulk7gr1escuzl/" style="font-weight:bold; text-decoration:underline;">Sign up to receive updates</a>
+        </p>
       </section>
-      
-      {% if false %}
-      <section style="background: url('./assets/bg_topo.png'); margin: 3rem 0; border-top: 1px solid #eaeaea; background-size: contain;">
-        <article style="overflow: auto; clear: both; padding: 4rem 0; margin: 0 auto; max-width: 24rem;">
-          <h2>Event Management</h2>
-          <img src="" style="width: 100%" />
-          <p>Get your plans in front of your members early and often with robust RSVPs and reminders.</p>
-        </article>
-        <article style="overflow: auto; clear: both; padding-top: 6rem; margin: 0 auto; max-width: 24rem;">
-          <h2>Powerful Communication</h2>
-          <p>Email and text channels increase the chances of your message being heard.</p>
-        </article>  
-      </section>
-      {% endif %}
     </main>
   </body>
 </html>

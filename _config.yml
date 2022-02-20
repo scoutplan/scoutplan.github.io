@@ -32,9 +32,9 @@ domain: scoutplan.github.io
 url: https://www.scoutplan.org
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-postcss  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
