@@ -464,6 +464,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1.5rem;
   line-height: 2rem;
 }
+.outline {
+  outline-style: solid;
+}
 body {
-  font-family: "Proxima Nova", sans-serif;
+  font-family: proxima-nova, sans-serif;
 }
