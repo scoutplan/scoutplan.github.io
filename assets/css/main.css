@@ -474,6 +474,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mb-3 {
   margin-bottom: 0.75rem;
 }
+.mt-4 {
+  margin-top: 1rem;
+}
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -519,8 +522,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .rounded-xl {
   border-radius: 0.75rem;
 }
+.border {
+  border-width: 1px;
+}
 .border-t {
   border-top-width: 1px;
+}
+.border-stone-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(231 229 228 / var(--tw-border-opacity));
 }
 .bg-orange-600 {
   --tw-bg-opacity: 1;
