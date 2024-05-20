@@ -1,0 +1,22 @@
+section#more.py-4.w-3/4
+    h2.text-4xl.font-black.mb-4 What about Scoutbook?
+
+    p.leading-snug.text-2xl.font-light.mb-8 While there's a bit of overlap, Scoutbook covers different ground by focusing on advancement. Scoutplan is entirely focused on <strong class="font-bold">event management and communication</strong>. Together, the two make a potent combination.
+
+    - if true
+      h2.text-4xl.font-black.mb-4 How much does it cost?
+      p.leading-snug.text-2xl.font-light.mb-8 Scoutplan is free for BSA packs, troops, crews, and ships. The author funds the project for his unit's use. If it's beneficial to others, so much the better!
+      
+    - if false
+      p If you'd like to support Scoutplan, you can <a class="text-blue-500 font-bold" href="https://www.buymeacoffee.com/scoutplan">buy me a coffee</a>.
+    
+    / h2.text-4xl.font-black.mb-4 Can I help?
+    / p.leading-snug.text-2xl.font-light.mb-8 Absolutely! If you're a software programmer, Scoutplan is entirely open source. Fork us on <a class="text-blue-500 font-bold" href="https://github.com/scoutplan/scoutplan">GitHub</a> and submit a pull request. If you're not a developer, writing documentation would be really helpful.
+
+    h2.text-4xl.font-black.mb-4 Is it secure? Is it reliable?
+    p.leading-snug.text-2xl.font-light.mb-8
+      | Yes and yes. Scoutplan is hosted at <a href="https://digitalocean.com">Digital Ocean</a>, a leading and secure cloud provider. 
+      | Traffic is encrypted via TLS using certificates from <a href="https://letsencrypt.org">Let's Encrypt</a>. 
+      | We use <a href="https://honeybadger.io">Honeybadger</a> and <a href="https://scoutapm.com">Scout APM</a> to monitor errors and performance. 
+      | Server configuration is checked weekly through <a href="https://ssllabs.com">Qualys SSL Labs</a>. 
+      | As for reliability, Scoutplan was up and available 99.992% of the time in 2022, meaning it was down for less than one hour all year.
