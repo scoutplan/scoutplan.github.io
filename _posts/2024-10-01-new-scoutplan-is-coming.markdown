@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "The next evolution of Scoutplan is coming!"
-date:   2024-08-29
- 08:23:28 -0400
+date:   2024-10-01 12:00:00 -0400
 categories: news
 author: Ray Bradley
 ---
